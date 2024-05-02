@@ -1,0 +1,20 @@
+{
+  "name": "api_test_automation_lvolcko",
+  "version": "1.0.0",
+  "description": "API Test automation solution from L. Volcko",
+  "main": "index.js",
+  "scripts": {
+    "api:get": "cypress run --spec 'cypress/e2e/api/GET_HttpRequests.cy.js'",
+    "api:post": "cypress run --spec 'cypress/e2e/api/POST_HttpRequests.cy.js'",
+    "api:all": "cypress run --spec 'cypress/e2e/api/*'"
+  },
+  "keywords": [],
+  "author": "Lubomir Volcko",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^13.8.1"
+  },
+  "devDependencies": {
+    "cypress-mochawesome-reporter": "^3.8.2"
+  }
+}
