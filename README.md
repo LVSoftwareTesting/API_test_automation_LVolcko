@@ -35,15 +35,15 @@ This project aims to demonstrate effective techniques for API testing, ensuring 
   ```bash
   npx cypress run
   ```
-- **Run tests for Test Case 1
+- **Run tests for Test Case 1**
   ```bash
   npm run api:get
   ```
-- **Run tests for Test Case 2
+- **Run tests for Test Case 2**
   ```bash
   npm run api:post
   ```
-- **Run tests for both test cases
+- **Run tests for both test cases**
   ```bash
   npm run api:all
   ```
